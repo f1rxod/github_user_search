@@ -1,0 +1,129 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(53, 124, 255);
+}
+#input{
+    background: url(magnifier.png) no-repeat left;
+    background-size: 20px;
+    background-position: 5px;
+    border: none;
+    height: 50px;
+    color: white;
+    padding-left: 35px;
+    width: 90%;
+    font-size: x-large;
+}
+#input::placeholder{
+    color: aliceblue;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.inputs button{
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(12, 99, 255);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+p{
+    color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+}
+h4{
+    color: white;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.inputs{
+    background-color: rgb(29, 42, 88);
+    align-items: center;
+    text-align: center;
+    margin: 3% 30%;
+    padding: 1%;
+}
+.information{
+    background-color: rgb(29, 42, 88);
+    margin: 3% 30%;
+
+}
+.col-lg-2 img{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px;
+    margin: 5%;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+body{
+    background-color: rgb(30, 36, 53);
+}
+.additional{
+    background-color: rgb(30, 36, 53);
+    padding: 1%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+.additional p{
+    font-weight: 900;
+    font-size: 20px;
+}
+@media only screen and (max-width:1120px){
+    .additional p{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:991px){
+    div{
+        margin: 3% 0;
+    }
+    #input{
+        width: 80%;
+    }
+    #input::placeholder{
+        font-size: small;
+    }
+    .bio{
+        margin-left: 10px;
+    }
+    .additional{
+        display: block;
+        margin: 2% ;
+        text-align: center;
+    }
+    .last{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .col-lg-4{
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width:700px){
+    button{
+        margin-top: 2px;
+        margin-bottom: 10px;
+        border: none;
+        background-color: rgb(12, 99, 255);
+        padding: 5px 20px;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+    }
+    .inputs, .information{
+        margin:3% 5%
+    }
+}
